@@ -7,7 +7,7 @@
     binaryCaches = [ "https://petabyteboy.cachix.org" ];
   };
 
-  systemPackages = [
+  environment.systemPackages = [
     (import (builtins.fetchTarball "https://github.com/petabyteboy/nixpkgs-qutebrowser/archive/master.tar.gz") {})
   ];
 ```
