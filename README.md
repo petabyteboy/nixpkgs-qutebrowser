@@ -4,7 +4,7 @@ First add the binary cache to your system configuration, if you have sufficient 
 
 ```
   nix = {
-    binaryCachePublicKeys = [ "petabyteboy.cachix.org-1:B3IZzyEnU4q+zV5YdMTjxKQ/Q2bpkbTx/5V5zAr+G3WW4WXZd8GBOxVYrBQPDcLRsMcoKg2B68kXR+w+DxVhzw==" ];
+    binaryCachePublicKeys = [ "petabyteboy.cachix.org-1:luFl2XfBgTsVWKwUDw3C0bDHKCoNgevJF0fsPg8VYc8=" ];
     binaryCaches = [ "https://petabyteboy.cachix.org" ];
   };
 ```
