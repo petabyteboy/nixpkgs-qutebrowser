@@ -44,7 +44,7 @@ let
         owner = "qt";
         repo = "qtwebkit";
         rev = "v${version}";
-        sha256 = "05h1xnxzbf7sp3plw5dndsvpf6iigh0bi4vlj4svx0hkf1giakjb";
+        sha256 = "0x8rng96h19xirn7qkz3lydal6v4vn00bcl0s3brz36dfs0z8wpg";
       };
       version = "5.212.0-alpha4";
     };
@@ -63,8 +63,9 @@ let
         ./qtbase.patch.d/0006-qtbase-gtk3.patch
         ./qtbase.patch.d/0007-qtbase-xcursor.patch
         ./qtbase.patch.d/0008-qtbase-tzdir.patch
-        ./qtbase.patch.d/0009-qtbase-assert.patch
-        ./qtbase.patch.d/0010-fix-header_module.patch
+        ./qtbase.patch.d/0009-qtbase-qtpluginpath.patch
+        ./qtbase.patch.d/0010-qtbase-assert.patch
+        ./qtbase.patch.d/0011-fix-header_module.patch
       ];
     qtdeclarative = [ ./qtdeclarative.patch ];
     qtscript = [ ./qtscript.patch ];
