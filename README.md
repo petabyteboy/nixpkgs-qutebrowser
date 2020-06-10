@@ -11,7 +11,7 @@ First add the binary cache to your system configuration, if you have sufficient 
 
 *Important*: Rebuild your system.
 
-Then, add the new qutebrowser qutebrowser package to your system configuration.
+Then, add the new qutebrowser package to your system configuration.
 
 ```
   environment.systemPackages = [
