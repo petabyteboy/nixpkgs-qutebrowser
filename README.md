@@ -1,3 +1,5 @@
+# Deprecated: use qutebrowser from nixpkgs unstable
+
 ### qutebrowser based on Qt5.14
 
 First add the binary cache to your system configuration, if you have sufficient trust in packages built by me and don't want to build QtWebEngine yourself:
